@@ -15,6 +15,9 @@ router.route("/register").post(
     ]),
     registerUser
     )
-
+    router.get('/', (req, res) => {
+        res.send('Hello from Express on Railway!');
+      });
+      
 router.route("/login").post(loginUser)
 export default router
