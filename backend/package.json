@@ -4,15 +4,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-     "start": "node -r dotenv/config --experimental-json-modules src/index.js",
-"dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
-
+    "start": "node -r dotenv/config --experimental-json-modules src/index.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
